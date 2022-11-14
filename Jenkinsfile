@@ -17,5 +17,11 @@ pipeline {
                 '''
             }
         }
+
+        stage('test') {
+            steps {
+                echo 'Clarusway_Way to Reinvent Yourself'
+            }
+        }
     }
 }
